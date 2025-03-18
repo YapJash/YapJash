@@ -1,0 +1,143 @@
+body{
+	background-image: url(lvl.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;	
+	text-align: center;
+	padding: 1px;
+	min-height: 100vh;
+	justify-content: center;
+}
+
+.navbar{
+	width: 100%;
+	margin: auto;
+	padding: 2px 5px;
+	display: flex;
+	text-align: center;
+	justify-content: space-between;
+	position: fixed;
+	background: rgba(0, 0, 0, 0.6);
+}
+
+.navbar ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	position: relative;
+}
+
+.logo{
+	width: 120px;
+	cursor: pointer;
+
+}
+
+.navbar ul il::before{
+	bottom: 0;
+	left: 50%;
+
+}
+
+.navbar ul li a{
+	text-decoration: none;
+	text-shadow: 0 0 0.25em currentColor;
+	color: #fff;
+	text-transform: uppercase;
+	background: rgba(0, 0, 0, 0.6);
+	touch-action: pan-y;
+	font-size: 20px;
+	width: 100%;
+	border: 2px solid transparent;
+	border-radius: 20px;
+	background-image: linear-gradient(#42455a,#42455a), radial-gradient(circle at top left,#fd00da,#19d7f8);
+	background-origin: border-box;
+	background-clip: content-box,border-box;
+
+}
+
+.navbar ul li::after{
+	content: '';
+	height: 2px;
+	width: 0;
+	background: #009688;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	transition: 0.7s;
+
+}
+
+.navbar ul li:hover::after{
+	width: 100%;
+
+}
+
+.content{
+	width: 100%;
+	position: absolute;
+	top: 300%;
+	transform: translateY(-50%);
+	text-align: left;
+	color: skyblue;
+	width: 70%;
+	left: 15%;
+	background: rgba(0, 0, 0, 0.6);
+	border-bottom: 10px solid #bbb;
+	text-shadow: 0 0 0.25em currentColor;
+	animation: scale 1s ease alternate-reverse;
+}
+
+@keyframes scale {
+	to{
+		transform: scale(1.2);
+	}
+}
+
+
+.container{
+	float: right;
+	width: 30%;
+}
+
+.content2{
+	width: 100%;
+	position: absolute;
+	top: 650%;
+	transform: translateY(-50%);
+	text-align: left;
+	color: skyblue;
+	width: 70%;
+	left: 15%;
+	background: rgba(0, 0, 0, 0.6);
+	border-bottom: 10px solid #bbb;
+	text-shadow: 0 0 0.25em currentColor;
+	animation: scale 1s ease alternate-reverse;
+}
+
+@keyframes scale {
+	to{
+		transform: scale(1.2);
+	}
+}
+
+
+
+.content3{
+	width: 100%;
+	position: absolute;
+	top: 1000%;
+	transform: translateY(-50%);
+	text-align: left;
+	color: skyblue;
+	width: 70%;
+	left: 15%;
+	background: rgba(0, 0, 0, 0.6);
+	border-bottom: 10px solid #bbb;
+	text-shadow: 0 0 0.25em currentColor;
+	animation: scale 1s ease alternate-reverse;
+}
+@keyframes scale {
+	to{
+		transform: scale(1.2);
+	}
+}
