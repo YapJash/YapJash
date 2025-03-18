@@ -1,4 +1,4 @@
-## Hi there 👋
+The PAIN you Feel Today, Will be The STRENGTH you'll have Tomorrow.
 
 <!--
 **YapJash/YapJash** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
